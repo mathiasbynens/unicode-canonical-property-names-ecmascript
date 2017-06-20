@@ -46,6 +46,7 @@ module.exports = new Set([
 	'Pattern_White_Space',
 	'Quotation_Mark',
 	'Radical',
+	'Regional_Indicator',
 	'Sentence_Terminal',
 	'Soft_Dotted',
 	'Terminal_Punctuation',
