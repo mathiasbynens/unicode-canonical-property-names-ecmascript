@@ -1,6 +1,6 @@
 {
   "name": "unicode-canonical-property-names-ecmascript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
   "homepage": "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
   "main": "index.js",
