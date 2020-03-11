@@ -1,7 +1,7 @@
-import test from 'ava';
-import canonicalProperties from '../index.js';
+const test = require('ava');
+const canonicalProperties = require('../index.js');
 
-test(t => {
+test('unicode-canonical-property-names-ecmascript', t => {
 	// Test non-binary properties.
 	t.true(canonicalProperties.has('General_Category'));
 	t.false(canonicalProperties.has('gc'));

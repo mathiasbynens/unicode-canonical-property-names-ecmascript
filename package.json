@@ -29,6 +29,6 @@
     "ava": "*"
   },
   "scripts": {
-    "test": "ava ./tests"
+    "test": "ava tests/tests.js"
   }
 }
