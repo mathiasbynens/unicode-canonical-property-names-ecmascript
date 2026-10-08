@@ -3,13 +3,14 @@
   "version": "2.0.1",
   "description": "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
   "homepage": "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
-  "main": "index.js",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
   "engines": {
-    "node": ">=4"
+    "node": ">=18"
   },
   "files": [
     "LICENSE-MIT.txt",
-    "index.js"
+    "index.mjs"
   ],
   "keywords": [
     "unicode",
@@ -25,10 +26,7 @@
     "url": "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
   },
   "bugs": "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues",
-  "devDependencies": {
-    "ava": "*"
-  },
   "scripts": {
-    "test": "ava tests/tests.js"
+    "test": "node --test tests/tests.mjs"
   }
 }

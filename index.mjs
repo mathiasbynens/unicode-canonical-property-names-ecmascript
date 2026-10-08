@@ -1,4 +1,4 @@
-module.exports = new Set([
+const canonicalProperties = new Set([
 	// Non-binary properties:
 	'General_Category',
 	'Script',
@@ -58,3 +58,5 @@ module.exports = new Set([
 	'XID_Continue',
 	'XID_Start'
 ]);
+
+export default canonicalProperties;

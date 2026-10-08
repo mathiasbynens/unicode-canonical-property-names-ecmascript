@@ -10,10 +10,10 @@ To use _unicode-canonical-property-names-ecmascript_, install it as a dependency
 $ npm install unicode-canonical-property-names-ecmascript
 ```
 
-Then, `require` it:
+Then, `import` it:
 
 ```js
-const properties = require('unicode-canonical-property-names-ecmascript');
+import properties from 'unicode-canonical-property-names-ecmascript';
 ```
 
 ## Example
